@@ -43,9 +43,9 @@ For the training and the validation samples, the format is as follows:
     "tag": "clean_en"
 }
 ```
-where "src" and "tgt" indicate the source English sentence and the target Chinese/German sentence, respectively. "doc" indicates the corresponding document w.r.t the <src, tgt> pair, the document could be relevant doc or noisy doc.
+where `src` and `tgt` indicate the source English sentence and the target Chinese/German sentence, respectively. `doc` indicates the corresponding document w.r.t the <src, tgt> pair, the document could be relevant doc or noisy doc.
 
-"tag" represents the type of the document:
+`tag` represents the type of the document:
 - `clean_en/zh/de/fr/cs` means the English/Chinese/German/French/Czech document is relevant to current <src, tgt> pair.
 - `noisy_en/zh/de/fr/cs` means the English/Chinese/German/French/Czech document is irrelevant to current <src, tgt> pair.
 
